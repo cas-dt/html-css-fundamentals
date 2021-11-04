@@ -55,7 +55,7 @@ Ein *Vektor-Bild* enthält Koordinaten von Punkten, Linien und Flächen, die zus
 
 Durch *Komprimierung* wird eine Datei verkleinert. Im JPEG-Format werden z.B. Pixel, die nahe beieinanderliegen und ähnliche Farbewerte haben, zu Rechtecken zusammengefasst. Durch die Komprimierung findet in der Regel ein Qualitätsverlust statt.
 
-## Links
+## Links
 
 Ein Link kann auf ein anderes HTML-Dokument führen, auf eine Datei anderen Formats (dann ist es ein Download-Link) oder auf eine «Sprungmarke» im gleichen Dokument (dann ist es ein Textanker).
 
@@ -77,7 +77,7 @@ Das Attribut `target="_blank"` sorgt dafür, dass das Ziel des Links in einem ne
 
 `<a href="#foo-bar>`
 
-Sprungmarken werden in langen Dokumenten verwendet. Als Ziel fungiert ein HTML-Tag mit einem Attribut `id`, in der Regel eine Überschrift: `<h2 id="foo-bar">Foo Bar</h2>.
+Sprungmarken werden in langen Dokumenten verwendet. Als Ziel fungiert ein HTML-Tag mit einem Attribut `id`, in der Regel eine Überschrift: `<h2 id="foo-bar">Foo Bar</h2>`.
 
 ### Spezial-Links (für Expert\*innen)
 
@@ -93,7 +93,7 @@ Link auf eine JavaScript Datei: `<script  src="my-script.js"></script>`. Diese T
 
 Die Masseinheiten `em` und `rem` stehen für das Schriftgeviert und werden ausgehend von einer Basisgrösse errechnet. Bei `rem` ist es die Schriftgrösse des Selektors [`:root`](https://developer.mozilla.org/en-US/docs/Web/CSS/:root), bei `em` die des nächsten übergeordneten Elements, das eine definierte Schriftgrösse hat (fehleranfällig).
 
-TL;DR – Verwende `rem`, nicht `em`!
+**TL;DR** – Verwende `rem`, nicht `em`!
 
     :root {
         font-size: 100%; /* Browser default */
